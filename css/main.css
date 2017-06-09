@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  background: grey;
+}
+
+*{
+  //border: 1px solid rgba(0,200,200,0.5);
+}
+
+h1, h2, h3{
+    font-family: 'lato', helvetica, sans-serif;
+}
+
+h1{
+  font-size: 38px;
+  margin: 0 auto 20px auto;
+}
+
+h2{
+  font-size: 26px;
+}
+
+
+.container-fluid{
+  background: white;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+.logo{
+  display: block;
+  max-width: 300px;
+  margin: 25px auto;
+}
+
+.blue-bg{
+  background: #55C5CC;
+}
+
+
+.blue-bg h2{
+  margin: 40px;
+  font-size: 28px;
+  color: white;
+}
+
+.blue-bg .btn{
+  cursor: pointer;
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  background: white;
+  color: #55C5CC;
+  border: 3px solid #55C5CC;
+  max-width: 300px;
+  margin: 20px auto 40px auto;
+}
+
+.blue-bg .btn:hover{
+  background: rgba(230,230,230,1);
+  color: #55C5CC;
+}
+
+.team-intro{
+  padding: 40px;
+}
+
+
+.coral-bg{
+  background: #F37467;
+}
+
+.coral-bg h1{
+  color: white;
+}
+
+.left-side{
+  padding: 10px;
+}
+
+.right-side{
+  padding: 10px;
+}
+
+.services{
+
+}
+
+.service{
+
+}
+
+.module {
+  margin: 10px;
+}
+
+.module p{
+  padding: 10px;
+}
+
+.icon-container{
+  padding: 15px 10px;
+}
+
+.icon{
+  display: block;
+  height: 64px;
+  width: 64px;
+  max-width: 100%;
+  //background: #55C5CC;
+  border-radius: 100%;
+}
+
+
+
+/* desktop only stuff */
+@media screen and (min-width: 768px){
+  .blue-bg h2{
+    right: 50px;
+    top: 198px;
+    width: 187px;
+    position: absolute;
+  }
+
+  .cone-bg{
+    position: relative;
+    background-image: url(../images/cone-bg.png);
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .blue-bg h2{
+    font-size: 22px;
+    color: #5C595B;
+  }
+}
